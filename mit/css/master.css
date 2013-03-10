@@ -1,0 +1,159 @@
+html,body{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:url(../images/jianbian.jpg);
+	background-repeat:repeat-x;	
+}
+#page-container{
+	width:982px;
+	height:679px;
+	margin:auto;
+	padding:auto;
+}
+#menu{
+	height:47px;
+}
+#menu #header{
+	margin-left:20px;
+	margin-top:10px;
+	color:#F1C7A5;
+	font-size: 12px;
+	font-weight: bold;
+    
+}
+#menu #header a{
+	color:#F1C7A5;
+	text-decoration:none;
+}
+#menu #header a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#menu #header #form{
+	float:right;
+	width:230px;
+	height:44px;
+	font-size: 12px;
+	line-height: 12px;
+	margin-right:15px;
+}
+#content{
+	height:561px;
+	background:url(../images/background.jpg);
+}
+#content #left{
+	width:230px;
+	height:515px;
+	float:left;
+	margin-left:15px;
+	margin-top:20px;
+	background:url(../images/left.png);
+}
+#content #left #listA {
+	margin-left:10px;
+	margin-top:20px;
+	list-style:none;
+	text-align:left;
+	line-height:13px;
+	color:#AAA;
+}
+#content #left #listA #listA-title a {
+   text-decoration:none;
+   color:#F1C7A5;
+}
+#content #left #listA #listA-title a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#content #left #listA a:hover {
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#content #left #listA a {
+	color:#AAA;
+	text-decoration:none;
+}
+#content #right{
+	width:182px;
+	height:515px;
+	float:right;
+	margin-right:15px;
+	margin-top:20px;
+	background:url(../images/right.png);
+}
+#content #right #listB {
+	margin-left:10px;
+	margin-top:20px;
+	list-style:none;
+	line-height:14px;
+	color:#AAA;
+}
+#content #right #listB #listB-title a{
+	text-decoration:none;
+    color:#F1C7A5;
+}
+#content #right #listB #listB-title a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#content #right #listB a{
+	color:#AAA;
+	text-decoration:none;
+}
+#content #right #listB a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#content #bottom {
+	width:323px;
+	height:86px;
+	float:right;
+	margin-top:450px;
+	margin-right:12px;
+	background:url(../images/bottom.png);
+}
+#content #bottom #listC{
+	margin-left:5px;
+	margin-top:10px;
+}
+#content #bottom a{
+	color:#AAA;
+	text-decoration:none;
+}
+#content #bottom a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#content #bottom #title a{
+	font-style: italic;
+}
+#content #bottom #head a{
+	font-weight:600;
+	font-size:15px;
+}
+#content #bottom #foot a{
+	line-height: 16px;
+}
+#footer{
+	width:982px;
+	height:59px;
+	color:#F1C7A5;
+	background:black;
+}
+#footer a{
+	color:#F1C7A5;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#9EEDF8;
+	text-decoration:underline;
+}
+#footer #link{
+	margin-left:16px;
+	padding-top:10px;
+	line-height:20px;
+}
